@@ -1,0 +1,44 @@
+.application-fill           { fill: fb-blue; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-green; }
+
+.screen { 
+  width: 100%; 
+  height: 100%; 
+  viewport-fill: black; 
+}
+
+.labels {
+  x: 20;
+  width: 100%;
+  height: 20;
+  fill: fb-blue;
+}
+
+.asleep-label {
+  y: 60;
+}
+
+.wokeup-label {
+  y: $+10%;
+}
+
+.time-label {
+  y: $+10%;
+}
+
+.asleep-btn { 
+  fill: fb-blue;
+}
+
+.awake-btn { 
+  fill: fb-blue;
+}
+
+#awake-btn #text {
+  text-buffer: "Awake";
+}
+
+#asleep-btn #text {
+  text-buffer: "Asleep";
+}

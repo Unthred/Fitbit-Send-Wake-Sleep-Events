@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  },
+  "fitbit": {
+    "appUUID": "eaa029e5-d7d4-479f-a852-2e5eea38a08d",
+    "appType": "app",
+    "appDisplayName": "Send Wake Sleep Events",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Send Wake Sleep Events"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

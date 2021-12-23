@@ -1,0 +1,8 @@
+<svg class="screen">
+  <text class="labels asleep-label">Fell Asleep: 14:00</text>
+  <text class="labels wokeup-label">Woke Up: 15:00</text>
+  <text class="labels time-label">Time Asleep: 1:00</text>
+  <use id="awake-btn" href="#text-button" class="text-button awake-btn bottom left secondary application-fill"></use>
+  <use id="asleep-btn" href="#text-button" class="text-button asleep-btn bottom right secondary application-fill"></use>
+</svg>
+ 
